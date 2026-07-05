@@ -3,7 +3,7 @@
 > **Estado (2026-07-05):** casi todos los placeholders ya fueron reemplazados por imágenes
 > generadas con IA (originales en `/assets/magnific__*.png`). Quedan pendientes de foto real:
 > `proyecto-instalacion-02.jpg` y `estudio-obra.jpg` (siguen siendo gradientes abstractos),
-> y el retrato real del Arq. Osvaldo Minahk para `estudio-retrato.jpg` (hoy hay una escena
+> y el retrato real del Arq. Osvaldo E. Minahk para `estudio-retrato.jpg` (hoy hay una escena
 > de estudio genérica; al reemplazarlo, restaurar el epígrafe indicado en el comentario HTML).
 
 Todos los placeholders viven en `/placeholders/`. Para reemplazar una imagen, **generá o sacá la foto, exportala como JPG con el mismo nombre de archivo** y pisá el placeholder. No hace falta tocar el HTML.
@@ -17,7 +17,7 @@ Recomendación general: JPG calidad 80, perfil sRGB. Los tamaños indicados son 
 **Prompt IA:** "Modern sustainable architecture building at dusk, dramatic sky, strong geometric concrete and glass facade with warm interior lighting, teal-tinted glass accents, architectural photography, wide angle, moody, high contrast, no people"
 
 ## `estudio-retrato.jpg` — 960×1200 (4:5)
-**Foto ideal:** retrato profesional del Arq. Osvaldo Minahk en obra o en el estudio, luz natural lateral, fondo levemente desenfocado. También funciona una foto suya revisando planos.
+**Foto ideal:** retrato profesional del Arq. Osvaldo E. Minahk en obra o en el estudio, luz natural lateral, fondo levemente desenfocado. También funciona una foto suya revisando planos.
 **Prompt IA (si no hay foto):** "Portrait of a senior male architect in his 60s reviewing blueprints on a construction site, natural side light, shallow depth of field, professional editorial photography, muted tones"
 
 ## `estudio-obra.jpg` — 1200×900 (4:3)

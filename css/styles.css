@@ -875,6 +875,12 @@ ul, ol { list-style: none; }
   transition: color .3s;
 }
 .footer__cols a:hover { color: var(--text-inv); }
+.footer__loc {
+  display: block;
+  padding-block: .28rem;
+  font-size: .95rem;
+  color: var(--text-inv-soft);
+}
 .footer__base {
   display: flex;
   flex-wrap: wrap;

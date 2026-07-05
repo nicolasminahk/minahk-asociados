@@ -41,7 +41,7 @@ Ver **IMAGENES.md**: cada placeholder tiene dimensiones, descripción de la foto
 1. **Backend del formulario** — hoy solo muestra confirmación visual. El punto de conexión está marcado con `TODO backend` en `js/main.js` (y en el HTML). Opciones simples: [Formspree](https://formspree.io) (cambiar el `action` del form) o Resend con un endpoint propio.
 2. **Dominio final** — reemplazar `https://www.minahk.com.ar/` en: `index.html` (og:url y JSON-LD), `robots.txt` y `sitemap.xml`.
 3. **Fotos reales** — reemplazar placeholders según IMAGENES.md.
-4. **Datos reales** — verificar email de contacto (`info@minahk.com.ar` es placeholder), ciudad, y los valores de las stats.
+4. **Datos reales** — email (`estudiominahk@gmail.com`), teléfono (`+54 381 418-9066`) y ciudad (San Miguel de Tucumán) ya están cargados; falta verificar los valores de las stats.
 5. **OG image final** — armar `placeholders/og-image.jpg` con foto + logo cuando haya fotos reales.
 
 ## Notas técnicas
