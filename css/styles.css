@@ -562,7 +562,7 @@ ul, ol { list-style: none; }
    SUSTENTABILIDAD (dark)
    ========================================================================== */
 .section--dark { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
-.sust { background: linear-gradient(180deg, var(--ink) 0%, var(--ink-2) 100%); }
+.sust { background: var(--ink); }
 .principios {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -576,8 +576,7 @@ ul, ol { list-style: none; }
   padding: clamp(1.6rem, 3vw, 2.6rem) clamp(1.2rem, 2vw, 2rem);
   transition: background .4s var(--ease);
 }
-.sust .principio { background: transparent; }
-.principio:hover { background: rgba(24, 169, 159, .07); }
+.principio:hover { background: #1F2A29; }
 .principio svg {
   width: 42px; height: 42px;
   fill: none;

@@ -1,5 +1,11 @@
 # IMÁGENES — guía de reemplazo
 
+> **Estado (2026-07-05):** casi todos los placeholders ya fueron reemplazados por imágenes
+> generadas con IA (originales en `/assets/magnific__*.png`). Quedan pendientes de foto real:
+> `proyecto-instalacion-02.jpg` y `estudio-obra.jpg` (siguen siendo gradientes abstractos),
+> y el retrato real del Arq. Osvaldo Minahk para `estudio-retrato.jpg` (hoy hay una escena
+> de estudio genérica; al reemplazarlo, restaurar el epígrafe indicado en el comentario HTML).
+
 Todos los placeholders viven en `/placeholders/`. Para reemplazar una imagen, **generá o sacá la foto, exportala como JPG con el mismo nombre de archivo** y pisá el placeholder. No hace falta tocar el HTML.
 
 Recomendación general: JPG calidad 80, perfil sRGB. Los tamaños indicados son mínimos recomendados (el doble no molesta).
