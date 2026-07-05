@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MINAHK y Asociados — Arquitectura, Sustentabilidad e Instalaciones</title>
+  <meta name="description" content="Estudio de arquitectura, desarrollo e instalaciones con más de 30 años de trayectoria. Arquitectura con criterio sustentable, eficiencia energética e instalaciones de gas y pluviales en grandes superficies.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MINAHK y Asociados — Arquitectura que perdura">
+  <meta property="og:description" content="Arquitectura, desarrollo, sustentabilidad aplicada e instalaciones. Más de 30 años de trayectoria.">
+  <meta property="og:image" content="placeholders/og-image.jpg">
+  <meta property="og:locale" content="es_AR">
+  <!-- TODO: reemplazar por el dominio final cuando esté definido -->
+  <meta property="og:url" content="https://www.minahk.com.ar/">
+
+  <link rel="icon" type="image/png" href="assets/logo-k.png">
+
+  <!-- Tipografías: Archivo (display expandida + cuerpo) e IBM Plex Mono (etiquetas y cifras) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JSON-LD: organización -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ArchitecturalService",
+    "name": "MINAHK y Asociados",
+    "alternateName": "Estudio Minahk",
+    "description": "Estudio de arquitectura, desarrollo e instalaciones con más de 30 años de trayectoria. Especialistas en sustentabilidad aplicada e instalaciones de gas y pluviales.",
+    "url": "https://www.minahk.com.ar/",
+    "logo": "assets/logo-transparente.png",
+    "founder": { "@type": "Person", "name": "Osvaldo Minahk", "jobTitle": "Arquitecto — Máster en Sustentabilidad" },
+    "sameAs": ["https://www.instagram.com/minahkyasociados/"],
+    "knowsAbout": ["Arquitectura", "Desarrollo inmobiliario", "Sustentabilidad", "Eficiencia energética", "Instalaciones de gas", "Instalaciones pluviales"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__brand" aria-label="MINAHK y Asociados — inicio">
+        <img src="assets/logo-k.png" alt="" class="nav__mark" width="34" height="31">
+        <span class="nav__word">MINAHK<em>y asociados</em></span>
+      </a>
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="#estudio">Estudio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#sustentabilidad">Sustentabilidad</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#proceso">Proceso</a>
+      </nav>
+      <a href="#contacto" class="nav__cta">Contacto</a>
+      <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menú mobile fullscreen -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Menú móvil">
+      <a href="#estudio"><i>01</i>Estudio</a>
+      <a href="#servicios"><i>02</i>Servicios</a>
+      <a href="#sustentabilidad"><i>03</i>Sustentabilidad</a>
+      <a href="#proyectos"><i>04</i>Proyectos</a>
+      <a href="#proceso"><i>05</i>Proceso</a>
+      <a href="#contacto"><i>06</i>Contacto</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="https://www.instagram.com/minahkyasociados/" target="_blank" rel="noopener">@minahkyasociados</a>
+      <span>Más de 30 años de arquitectura</span>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============ 1 · HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__media" aria-hidden="true">
+        <img src="placeholders/hero-obra.jpg" alt="" id="heroImg">
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow eyebrow--light" data-reveal>Estudio de arquitectura · desarrollo · instalaciones</p>
+        <!--
+          Alternativas de titular:
+          · "Proyectamos edificios. Medimos su futuro."
+          · "30 años construyendo lo que viene."
+          · "Arquitectura sólida. Energía inteligente."
+        -->
+        <h1 class="hero__title" id="heroTitle">Arquitectura que perdura. Sustentabilidad que se&nbsp;mide.</h1>
+        <p class="hero__sub" data-reveal data-delay="600">Estudio de arquitectura, desarrollo e instalaciones · Más de 30 años</p>
+        <div class="hero__actions" data-reveal data-delay="750">
+          <a href="#proyectos" class="btn btn--solid">Ver proyectos</a>
+          <a href="#servicios" class="btn btn--ghost">Nuestros servicios</a>
+        </div>
+      </div>
+      <a href="#estudio" class="hero__scroll" aria-label="Bajar a la sección Estudio">
+        <span></span>
+      </a>
+      <div class="hero__num" aria-hidden="true">30<sup>+</sup></div>
+    </section>
+
+    <!-- ============ 2 · ESTUDIO ============ -->
+    <section class="estudio section" id="estudio">
+      <div class="wrap">
+        <div class="estudio__grid">
+          <div class="estudio__text">
+            <p class="eyebrow" data-reveal>El estudio</p>
+            <h2 class="h2" data-reveal>Tres décadas de obra construida, <span class="accent">una manera de pensar</span> la arquitectura.</h2>
+            <p class="lead" data-reveal>MINAHK y Asociados es un estudio de arquitectura, desarrollo e instalaciones fundado por el arquitecto <strong>Osvaldo Minahk</strong>, Máster en Sustentabilidad. Proyectamos viviendas, edificios comerciales y desarrollos turísticos de la idea a la obra, con una convicción que atraviesa todo lo que hacemos: la buena arquitectura se demuestra en el tiempo — y se mide en energía.</p>
+            <p class="body" data-reveal>La combinación de criterio sustentable y experiencia técnica pesada en instalaciones nos permite resolver proyectos completos: del anteproyecto a la habilitación, sin intermediarios.</p>
+          </div>
+          <figure class="estudio__media" data-reveal data-reveal-dir="right">
+            <img src="placeholders/estudio-retrato.jpg" alt="Arq. Osvaldo Minahk, fundador del estudio" loading="lazy" width="960" height="1200">
+            <figcaption>
+              <strong>Arq. Osvaldo Minahk</strong>
+              Fundador · Máster en Sustentabilidad
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Stats: editá los valores en data-target / sufijo en data-suffix -->
+        <div class="stats" role="list">
+          <div class="stat" role="listitem" data-reveal>
+            <span class="stat__num"><span class="js-count" data-target="30">0</span>+</span>
+            <span class="stat__label">años de trayectoria</span>
+          </div>
+          <div class="stat" role="listitem" data-reveal data-delay="120">
+            <span class="stat__num"><span class="js-count" data-target="120">0</span>+</span>
+            <span class="stat__label">proyectos entregados</span>
+          </div>
+          <div class="stat" role="listitem" data-reveal data-delay="240">
+            <span class="stat__num"><span class="js-count" data-target="85000">0</span></span>
+            <span class="stat__label">m² desarrollados</span>
+          </div>
+          <div class="stat" role="listitem" data-reveal data-delay="360">
+            <span class="stat__num"><span class="js-count" data-target="40">0</span>+</span>
+            <span class="stat__label">grandes superficies habilitadas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3 · SERVICIOS ============ -->
+    <section class="servicios section" id="servicios">
+      <div class="wrap">
+        <p class="eyebrow" data-reveal>Servicios</p>
+        <h2 class="h2" data-reveal>Tres líneas, <span class="accent">un solo responsable</span>.</h2>
+
+        <div class="services" id="services">
+
+          <article class="service is-open">
+            <button class="service__head" aria-expanded="true">
+              <span class="service__idx">01</span>
+              <h3 class="service__title">Arquitectura <br>y desarrollo</h3>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <div class="service__inner">
+                <div class="service__info">
+                  <p>Proyectos residenciales, comerciales y turísticos, de la idea a la obra. Desarrollamos cada encargo como una inversión: programa, normativa, costo y valor futuro pensados desde el primer croquis.</p>
+                  <ul>
+                    <li>Viviendas unifamiliares y colectivas</li>
+                    <li>Edificios comerciales y de oficinas</li>
+                    <li>Desarrollos turísticos e inmobiliarios</li>
+                    <li>Dirección de obra y gerenciamiento</li>
+                  </ul>
+                </div>
+                <figure class="service__media">
+                  <img src="placeholders/servicio-arquitectura.jpg" alt="Obra de arquitectura del estudio" loading="lazy" width="1200" height="900">
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="service">
+            <button class="service__head" aria-expanded="false">
+              <span class="service__idx">02</span>
+              <h3 class="service__title">Sustentabilidad <br>aplicada</h3>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <div class="service__inner">
+                <div class="service__info">
+                  <p>El diferencial del estudio: eficiencia energética que se proyecta, se calcula y se verifica. No es un discurso — es ingeniería de confort con números arriba de la mesa.</p>
+                  <ul>
+                    <li>Diseño bioclimático y estudios de asoleamiento</li>
+                    <li>Eficiencia energética y etiquetado de viviendas</li>
+                    <li>Certificaciones y auditorías energéticas</li>
+                    <li>Consultoría para desarrollos existentes</li>
+                  </ul>
+                </div>
+                <figure class="service__media">
+                  <img src="placeholders/servicio-sustentabilidad.jpg" alt="Detalle de diseño bioclimático" loading="lazy" width="1200" height="900">
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="service">
+            <button class="service__head" aria-expanded="false">
+              <span class="service__idx">03</span>
+              <h3 class="service__title">Instalaciones <br><span class="accent">gas · pluviales</span></h3>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <div class="service__inner">
+                <div class="service__info">
+                  <p>Especialistas en instalaciones de <strong>gas</strong> y <strong>pluviales</strong> para shoppings, edificios y grandes superficies. Proyecto, cálculo, dirección técnica y habilitaciones ante los entes reguladores: la parte del edificio que no se ve, resuelta por gente que la hizo cientos de veces.</p>
+                  <ul>
+                    <li>Instalaciones de gas en shoppings y grandes superficies</li>
+                    <li>Desagües pluviales de cubiertas y playas</li>
+                    <li>Proyecto ejecutivo y cálculo</li>
+                    <li>Dirección técnica y habilitaciones</li>
+                  </ul>
+                </div>
+                <figure class="service__media">
+                  <img src="placeholders/servicio-instalaciones.jpg" alt="Instalaciones técnicas en gran superficie" loading="lazy" width="1200" height="900">
+                </figure>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4 · SUSTENTABILIDAD (dark) ============ -->
+    <section class="sust section section--dark" id="sustentabilidad">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--teal" data-reveal>Por qué sustentabilidad</p>
+        <h2 class="h2" data-reveal>Un edificio eficiente no cuesta más. <span class="accent">Cuesta pensarlo antes.</span></h2>
+
+        <div class="principios">
+          <div class="principio" data-reveal>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="10"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M38.1 9.9l-4.2 4.2M14.1 33.9l-4.2 4.2"/></svg>
+            <h3>Diseño bioclimático</h3>
+            <p>Orientación, ventilación cruzada y protección solar resueltas en planta, antes de sumar tecnología.</p>
+          </div>
+          <div class="principio" data-reveal data-delay="120">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M26 4L10 28h10l-2 16 18-26H24l2-14z"/></svg>
+            <h3>Eficiencia energética</h3>
+            <p>Envolventes calculadas y demanda verificada. Menos consumo todos los meses, durante décadas.</p>
+          </div>
+          <div class="principio" data-reveal data-delay="240">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 44c-9 0-16-7-16-16C8 15 24 4 24 4s16 11 16 24c0 9-7 16-16 16z"/><path d="M24 44V20"/><path d="M24 30l7-6M24 26l-6-5"/></svg>
+            <h3>Materiales conscientes</h3>
+            <p>Selección por desempeño, durabilidad y origen. Lo que se construye bien, se mantiene poco.</p>
+          </div>
+          <div class="principio" data-reveal data-delay="360">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M40 24a16 16 0 11-4.7-11.3"/><path d="M40 6v8h-8"/></svg>
+            <h3>Ciclo de vida</h3>
+            <p>Cada decisión se evalúa a 30 años: costo de operación, mantenimiento y valor de reventa.</p>
+          </div>
+        </div>
+
+        <!-- Cita editable -->
+        <blockquote class="quote" data-reveal>
+          <p>“La sustentabilidad no es una capa que se agrega al final. Es la lógica con la que un edificio nace — o no la tiene nunca.”</p>
+          <cite>— Arq. Osvaldo Minahk</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============ 5 · PROYECTOS ============ -->
+    <section class="proyectos section" id="proyectos">
+      <div class="wrap">
+        <p class="eyebrow" data-reveal>Obra seleccionada</p>
+        <h2 class="h2" data-reveal>Proyectos</h2>
+
+        <div class="filtros" role="group" aria-label="Filtrar proyectos por categoría" data-reveal>
+          <button class="filtro is-active" data-filter="todos">Todos</button>
+          <button class="filtro" data-filter="vivienda">Vivienda</button>
+          <button class="filtro" data-filter="comercial">Comercial</button>
+          <button class="filtro" data-filter="turistico">Turístico</button>
+          <button class="filtro" data-filter="instalacion">Instalaciones</button>
+        </div>
+
+        <!-- Grilla editable: duplicá un <a class="card"> y cambiá data-cat, imagen y textos -->
+        <div class="grid" id="grid">
+          <a class="card" href="#contacto" data-cat="vivienda" data-reveal>
+            <figure><img src="placeholders/proyecto-vivienda-01.jpg" alt="Casa Terraza — vivienda unifamiliar" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Casa Terraza</h3>
+              <p><span>Vivienda</span><span>2023</span></p>
+            </div>
+          </a>
+          <a class="card" href="#contacto" data-cat="comercial" data-reveal data-delay="80">
+            <figure><img src="placeholders/proyecto-comercial-01.jpg" alt="Edificio Núcleo — oficinas y locales" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Edificio Núcleo</h3>
+              <p><span>Comercial</span><span>2022</span></p>
+            </div>
+          </a>
+          <a class="card" href="#contacto" data-cat="instalacion" data-reveal data-delay="160">
+            <figure><img src="placeholders/proyecto-instalacion-01.jpg" alt="Shopping Portal — instalación de gas" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Shopping Portal · Gas</h3>
+              <p><span>Instalaciones</span><span>2024</span></p>
+            </div>
+          </a>
+          <a class="card" href="#contacto" data-cat="turistico" data-reveal data-delay="240">
+            <figure><img src="placeholders/proyecto-turistico-01.jpg" alt="Complejo Costa — desarrollo turístico" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Complejo Costa</h3>
+              <p><span>Turístico</span><span>2021</span></p>
+            </div>
+          </a>
+          <a class="card" href="#contacto" data-cat="vivienda" data-reveal data-delay="320">
+            <figure><img src="placeholders/proyecto-vivienda-02.jpg" alt="Casa Patio — vivienda bioclimática" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Casa Patio</h3>
+              <p><span>Vivienda</span><span>2020</span></p>
+            </div>
+          </a>
+          <a class="card" href="#contacto" data-cat="instalacion" data-reveal data-delay="400">
+            <figure><img src="placeholders/proyecto-instalacion-02.jpg" alt="Centro logístico — desagües pluviales" loading="lazy" width="1200" height="1500"></figure>
+            <div class="card__info">
+              <h3>Centro Logístico · Pluviales</h3>
+              <p><span>Instalaciones</span><span>2023</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6 · PROCESO ============ -->
+    <section class="proceso section section--dark" id="proceso">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--teal" data-reveal>Cómo trabajamos</p>
+        <h2 class="h2" data-reveal>De la idea a la llave, <span class="accent">sin zonas grises</span>.</h2>
+
+        <ol class="timeline" id="timeline">
+          <li class="paso" data-reveal>
+            <span class="paso__num">01</span>
+            <h3>Idea</h3>
+            <p>Escuchamos el programa, el terreno y el presupuesto. Definimos juntos qué éxito significa.</p>
+          </li>
+          <li class="paso" data-reveal data-delay="150">
+            <span class="paso__num">02</span>
+            <h3>Anteproyecto</h3>
+            <p>Partido, volumetría y estrategia bioclimática. La etapa donde se decide el 80% del resultado.</p>
+          </li>
+          <li class="paso" data-reveal data-delay="300">
+            <span class="paso__num">03</span>
+            <h3>Proyecto ejecutivo</h3>
+            <p>Documentación completa: estructura, instalaciones, detalles y cómputo. Todo listo para cotizar sin sorpresas.</p>
+          </li>
+          <li class="paso" data-reveal data-delay="450">
+            <span class="paso__num">04</span>
+            <h3>Dirección de obra</h3>
+            <p>Presencia en obra, control de calidad y de certificados. Los tiempos y el costo se cuidan acá.</p>
+          </li>
+          <li class="paso" data-reveal data-delay="600">
+            <span class="paso__num">05</span>
+            <h3>Entrega</h3>
+            <p>Habilitaciones, conformes a obra y manual de uso. El edificio queda funcionando — y midiendo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 7 · CONTACTO ============ -->
+    <section class="contacto section" id="contacto">
+      <div class="wrap">
+        <div class="contacto__grid">
+          <div class="contacto__text">
+            <p class="eyebrow" data-reveal>Contacto</p>
+            <h2 class="h2" data-reveal>Contanos qué querés <span class="accent">construir</span>.</h2>
+            <p class="lead" data-reveal>Respondemos en menos de 48 horas hábiles. Si tu consulta es por instalaciones en grandes superficies, indicalo en el tipo de proyecto.</p>
+            <ul class="contacto__datos" data-reveal>
+              <li><span>Email</span><a href="mailto:info@minahk.com.ar">info@minahk.com.ar</a></li>
+              <li><span>Instagram</span><a href="https://www.instagram.com/minahkyasociados/" target="_blank" rel="noopener">@minahkyasociados</a></li>
+              <li><span>Estudio</span>Buenos Aires, Argentina</li>
+            </ul>
+          </div>
+
+          <!-- TODO backend: conectar este form a un servicio de email (Resend, Formspree,
+               o un endpoint propio). Hoy solo muestra confirmación en frontend. -->
+          <form class="form" id="form" data-reveal data-reveal-dir="right" novalidate>
+            <div class="form__row">
+              <label for="f-nombre">Nombre</label>
+              <input type="text" id="f-nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre">
+            </div>
+            <div class="form__row">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" name="email" required autocomplete="email" placeholder="tu@email.com">
+            </div>
+            <div class="form__row">
+              <label for="f-tipo">Tipo de proyecto</label>
+              <select id="f-tipo" name="tipo" required>
+                <option value="" disabled selected>Elegí una opción</option>
+                <option>Vivienda</option>
+                <option>Comercial / oficinas</option>
+                <option>Turístico / desarrollo</option>
+                <option>Instalaciones — gas / pluviales</option>
+                <option>Sustentabilidad / auditoría energética</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="form__row">
+              <label for="f-msj">Mensaje</label>
+              <textarea id="f-msj" name="mensaje" rows="5" required placeholder="Contanos brevemente el proyecto, la ubicación y los plazos."></textarea>
+            </div>
+            <button type="submit" class="btn btn--solid btn--full">Enviar consulta</button>
+            <p class="form__ok" id="formOk" role="status" hidden>Gracias — recibimos tu consulta y te escribimos en breve.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__diag" aria-hidden="true"></div>
+    <div class="wrap footer__inner">
+      <img src="assets/logo-transparente.png" alt="MINAHK y Asociados" class="footer__logo" width="110" height="140" loading="lazy">
+      <div class="footer__cols">
+        <div>
+          <h4>Estudio</h4>
+          <a href="#estudio">Sobre nosotros</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#proceso">Proceso</a>
+        </div>
+        <div>
+          <h4>Servicios</h4>
+          <a href="#servicios">Arquitectura y desarrollo</a>
+          <a href="#servicios">Sustentabilidad aplicada</a>
+          <a href="#servicios">Instalaciones gas · pluviales</a>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <a href="mailto:info@minahk.com.ar">info@minahk.com.ar</a>
+          <a href="https://www.instagram.com/minahkyasociados/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer__base">
+      <span>© <span id="year">2026</span> MINAHK y Asociados — Arquitectura · Instalaciones</span>
+      <span>Más de 30 años proyectando lo que perdura</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
